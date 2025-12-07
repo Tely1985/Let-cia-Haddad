@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700;800&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Harmonização Facial | Dra. Letícia Haddad - São Paulo</title>
+    <meta name="description" content="Medicina Estética com Precisão, Sofisticação e Resultados Naturais. Procedimento seguro, resultado natural e definitivo. Dra. Letícia Haddad em São Paulo." />
+    <meta name="author" content="Dra. Letícia Haddad" />  
+    <meta name="keywords" content="Medicina Estética com Precisão, Sofisticação e Resultados Naturais, são paulo" />
+
+    <meta property="og:title" content="Harmonização Facial | Dra. Letícia Haddad" />
+    <meta property="og:description" content="Procedimento seguro, resultado natural e definitivo em São Paulo." />   
+    <meta property="og:type" content="website" />
+
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17706140314"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-17706140314');
+    </script>
+
+    <!-- EVENTO DE CONVERSÃO DO WHATSAPP -->
+    <script>
+      document.addEventListener("click", function (e) {    
+        const element = e.target.closest("a");
+        if (!element) return;
+
+        const url = element.href || "";
+
+        if (url.includes("https://wa.me/5511931460000")) { 
+          gtag('event', 'conversion', {
+            'send_to': 'AW-17706140314/kSh1CMPrqscbEJqF-fpB'
+          });
+        }
+      });
+    </script>
+    <!-- FIM DO EVENTO -->
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
